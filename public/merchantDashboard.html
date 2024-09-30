@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merchant Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome, Merchant</h2>
+    <div class="sales-section">
+      <h3>Total Sales: $<span id="totalSales">0.00</span></h3>
+    </div>
+    <div class="actions">
+      <button id="generateQRBtn" class="btn">Generate QR Code</button>
+    </div>
+
+    <h3>Sales History</h3>
+    <ul id="salesList">
+      <!-- Sales will be appended here -->
+    </ul>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
